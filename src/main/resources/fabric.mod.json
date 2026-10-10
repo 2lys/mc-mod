@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "brobyggerlogen",
+  "version": "${version}",
+  "name": "Brobyggerlogen",
+  "description": "A helmet renamed \"brobyggerlogen\" hides you from the locator bar, like a carved pumpkin.",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dk.brobygger.Brobyggerlogen"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
